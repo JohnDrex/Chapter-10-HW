@@ -3,7 +3,7 @@
 #accept an argument for each attribute. The Employee class should have accessor methods for each attribute.
 #All attribute should be hidden.
 
-class Person:
+class Employee: #Person
     
     def __init__(self, name, IDNum, department, job, MSalary):
         self.__name = name
